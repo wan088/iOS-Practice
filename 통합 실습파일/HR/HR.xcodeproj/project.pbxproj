@@ -83,26 +83,15 @@
 		CCCE430822C0E2FD002F452E /* HR */ = {
 			isa = PBXGroup;
 			children = (
+				CCFFE58C22F0353800A190D2 /* FMDatabase */,
+				CCFFE58B22F0352B00A190D2 /* Model */,
+				CCFFE58A22F0352800A190D2 /* View */,
+				CCFFE58922F0352300A190D2 /* Controller */,
 				CCCE430922C0E2FD002F452E /* AppDelegate.swift */,
 				CCCE430D22C0E2FD002F452E /* Main.storyboard */,
-				CCCE433022C0E50B002F452E /* DepartmentListVC.swift */,
-				CCCE433222C0E523002F452E /* EmployeeListVC.swift */,
 				CCCE431022C0E2FD002F452E /* Assets.xcassets */,
 				CCCE431222C0E2FD002F452E /* LaunchScreen.storyboard */,
 				CCCE431522C0E2FD002F452E /* Info.plist */,
-				CCCE431D22C0E322002F452E /* FMDatabase.h */,
-				CCCE432522C0E323002F452E /* FMDatabase.m */,
-				CCCE431F22C0E322002F452E /* FMDatabaseAdditions.h */,
-				CCCE432222C0E323002F452E /* FMDatabaseAdditions.m */,
-				CCCE432022C0E323002F452E /* FMDatabasePool.h */,
-				CCCE433822C21B2E002F452E /* EmployeeDAO.swift */,
-				CCCE433622C0E7D8002F452E /* DepartmentDAO.swift */,
-				CCCE432722C0E323002F452E /* FMDatabasePool.m */,
-				CCCE432122C0E323002F452E /* FMDatabaseQueue.h */,
-				CCCE431E22C0E322002F452E /* FMDatabaseQueue.m */,
-				CCCE432422C0E323002F452E /* FMDB.h */,
-				CCCE432322C0E323002F452E /* FMResultSet.h */,
-				CCCE432622C0E323002F452E /* FMResultSet.m */,
 				CCCE431C22C0E322002F452E /* HR-Bridging-Header.h */,
 				CCCE433422C0E786002F452E /* hr.sqlite */,
 			);
@@ -115,6 +104,49 @@
 				CCCE432E22C0E333002F452E /* libsqlite3.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCFFE58922F0352300A190D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCCE433022C0E50B002F452E /* DepartmentListVC.swift */,
+				CCCE433222C0E523002F452E /* EmployeeListVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CCFFE58A22F0352800A190D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCFFE58B22F0352B00A190D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CCCE433822C21B2E002F452E /* EmployeeDAO.swift */,
+				CCCE433622C0E7D8002F452E /* DepartmentDAO.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCFFE58C22F0353800A190D2 /* FMDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				CCCE432722C0E323002F452E /* FMDatabasePool.m */,
+				CCCE432122C0E323002F452E /* FMDatabaseQueue.h */,
+				CCCE431E22C0E322002F452E /* FMDatabaseQueue.m */,
+				CCCE432422C0E323002F452E /* FMDB.h */,
+				CCCE432322C0E323002F452E /* FMResultSet.h */,
+				CCCE432622C0E323002F452E /* FMResultSet.m */,
+				CCCE431D22C0E322002F452E /* FMDatabase.h */,
+				CCCE432522C0E323002F452E /* FMDatabase.m */,
+				CCCE431F22C0E322002F452E /* FMDatabaseAdditions.h */,
+				CCCE432222C0E323002F452E /* FMDatabaseAdditions.m */,
+				CCCE432022C0E323002F452E /* FMDatabasePool.h */,
+			);
+			path = FMDatabase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
